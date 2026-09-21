@@ -14,3 +14,9 @@ Integer b = 45000;
 Integer sum = a + b;
 System.debug('Sum: ' + sum);
 System.debug('Difference: ' + (b - a));
+
+/* Testing logical operators */
+Boolean isTrue = true;
+Boolean isFalse = false;
+System.debug('Logical AND: ' + (isTrue && isFalse));
+System.debug('Logical OR: ' + (isTrue || isFalse));
