@@ -7,3 +7,10 @@ System.debug(greeting);
 //add another variable
 String farewell = 'Goodbye world';
 System.debug(farewell);
+
+/* Testing expression operators */
+Integer a = 10;
+Integer b = 45000;
+Integer sum = a + b;
+System.debug('Sum: ' + sum);
+System.debug('Difference: ' + (b - a));
