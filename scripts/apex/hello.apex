@@ -1,6 +1,9 @@
 /* testing mul
 tiple lines of comments */
-
-System.debug('Hello world');
+//add variable
+String greeting = 'Hello world';
+System.debug(greeting);
 //this is just a test script
-System.debug('This is a test script in Apex');
+//add another variable
+String farewell = 'Goodbye world';
+System.debug(farewell);
