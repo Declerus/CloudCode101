@@ -1,5 +1,5 @@
 /*building a calculator in apex*/
-Interger a = 10;
+Integer a = 10;
 Integer b = 5;
 String operation = 'add'; // can be 'add', 'subtract', 'multiply', 'divide'     
 if (operation == 'add') {
@@ -21,3 +21,6 @@ if (operation == 'add') {
 } else {
     System.debug('Invalid operation specified.');
 }
+
+/* this is to query the account object and get the name of the account */
+System.debug([SELECT Name, Id FROM Account LIMIT 1]);
